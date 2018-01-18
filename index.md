@@ -1,4 +1,6 @@
-U V O D   U    R E A C T
+U V O D  
+U    
+R E A C T
 
 Januar 2018
 Predavač: Nikolić Dragan
