@@ -1,24 +1,16 @@
-U V O D  
-U    
-R E A C T
+U V O D  U    R E A C T
 
 Januar 2018
 Predavač: Nikolić Dragan
 
 <a href="/kursevi/prijava?kurs=1" class="btn">Prijavi se</a>
 
-MESTO ODRŽAVANJA :
-ŠKOLA KODA  , Borska 13b Beograd-Miljakovac
-TERMINI ODRŽAVANJA :
-12-14.30 PONEDELJAK, 12-14.30  ČETVRTAK
-TRAJANJE KURSA :
-Dva meseca (Početak od 01.02.2018)
-E-MAIL :
-kicaubuntu@gmail.com
-TELEFON :
-061 6378740 (Dragan) 
-WEB :
-https://skolakoda.org/
+MESTO ODRŽAVANJA :ŠKOLA KODA  , Borska 13b Beograd-Miljakovac
+TERMINI ODRŽAVANJA :12-14.30 PONEDELJAK, 12-14.30  ČETVRTAK
+TRAJANJE KURSA :Dva meseca (Početak od 01.02.2018)
+E-MAIL :kicaubuntu@gmail.com
+TELEFON :061 6378740 (Dragan) 
+WEB :https://skolakoda.org/
 
 
 
@@ -40,12 +32,19 @@ Da bi ste uspešno pohađali kurs bilo bi poželjno da imate čvrstu osnovu Java
 SADRŽAJ KURSA:
 
 1.UVOD U REACT
+
     1.1. ŠTA JE REACT?
+    
     1.2. ŠTA JE VIRTUAL-DOM?
+    
     1.3  KOMPARACIJA VIRTUAL-DOM vs DOM
+    
     1.4  UPOZNAVANJE SA OSNOVNIM ALATIMA  (Text editor, Node, Npm, Babel, React Dev-	Tools,pomoćne blbioteke)
+    
     1.5  INSTALIRANJE REACT-a (CDN, create-react-app , Webpack)
+    
     1.6  UVID U FOLDERSKU STRUKTURU REACT APLIKACIJE
+    
     1.7  KREIRANJE PRVE  REACT APLIKACIJE 
 
 2. JSX SINTAKSA
