@@ -3,16 +3,16 @@ Kurs u organizaciji Skole Koda namenjen svima koji zele da steknu osnovna znanja
 
 
 
-SADRŽAJ KURSA:  
+SADRŽAJ KURSA:    
 
-1.UVOD U REACT  
-1.1. ŠTA JE REACT?  
-1.2. ŠTA JE VIRTUAL-DOM?  
-1.3  ŠTA JE VIRTUAL-DOM?  
-1.4  UPOZNAVANJE SA OSNOVNIM ALATIMA  (Text editor, Node, Npm, Babel, React Dev-	Tools,pomoćne blbioteke)  
-    1.5  INSTALIRANJE REACT-a (CDN, create-react-app , Webpack)  
-    1.6  UVID U FOLDERSKU STRUKTURU REACT APLIKACIJE  
-    1.7  KREIRANJE PRVE  REACT APLIKACIJE   
+1.UVOD U REACT    
+    1.1. ŠTA JE REACT?      
+    1.2. ŠTA JE VIRTUAL-DOM?      
+    1.3  ŠTA JE VIRTUAL-DOM?      
+    1.4  UPOZNAVANJE SA OSNOVNIM ALATIMA  (Text editor, Node, Npm, Babel, React Dev-	Tools,pomoćne blbioteke)    
+    1.5  INSTALIRANJE REACT-a (CDN, create-react-app , Webpack)    
+    1.6  UVID U FOLDERSKU STRUKTURU REACT APLIKACIJE    
+    1.7  KREIRANJE PRVE  REACT APLIKACIJE     
 
 2. JSX SINTAKSA  
     2.1 ŠTA JE JSX?  
