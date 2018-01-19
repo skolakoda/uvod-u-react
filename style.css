@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
-@media (max-width:800px) {
-  * {
+@media only screen and (max-width:620px) {
+
+ body {
     width:100%;
+    margin-left:0;
   }
 }
 
