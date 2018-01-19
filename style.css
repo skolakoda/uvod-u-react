@@ -1,17 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
+@media (max-width:800px) {
+  * {
+    width:100%;
+  }
+}
+
 body{
    margin-left: 150px;
    margin-right: 150px;
    margin-top: 40px;
    text-align: center
    padding:40px;
-   font-size:1.2em;
+   font-size:1.2vw;
    font-family: 'Lato', sans-serif;
 }
 
 img {
    margin-top: 40px;
+   max-width:100%;
+   height:auto;
 }
 
 .naslov{
