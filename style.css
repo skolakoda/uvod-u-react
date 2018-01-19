@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body{
+   margin-left: 150px;
+   margin-right: 150px;
+   margin-top: 40px;
+   text-align: center
+   padding:40px;
+   font-size:1.2em;
+   font-family: 'Lato', sans-serif;
+}
+
+img {
+   margin-top: 40px;
+}
+
+.naslov{
+   letter-spacing:3px;
+   text-align: center;
+   padding: 20px;
+}
+
+.naslov h1{
+   font-size: 3em;
+}
+
+.btn{
+   border:2px solid #85b1f7;
+   padding: 20px 45px;
+   color: #85b1f7;
+   text-decoration: none;
+   margin-top:40px;
+}
+.btn:hover{
+   background-color: #85b1f7;
+   color:white;
+}
+
+.table1{
+   margin-top: 40px;
+}
+
+th,td{
+   border: 1px solid  #85b1f7;
+   padding: 10px;
+}
+
+td:nth-child(even) {
+    background-color: #85b1f7;
+}
+
+.border{
+   border-top: 1px solid #85b1f7;
+   border-bottom: 1px solid #85b1f7;
+}
