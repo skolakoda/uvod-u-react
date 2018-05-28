@@ -2,15 +2,13 @@
 
 Postoje različiti načini kreiranja React komponenti, a glavni su:
 
-- ES5 `createClass` metoda
+- `React.createClass` metoda (zastarelo)
 - ES6 klasa
 - ES6 funkcija
 
-Prvi način kreiranje komponente preko `React.createClass` metode je zastareo, pa ga nećemo posebno prelaziti.
-
 Glavna razlika između ES6 klase i funkcije je što klasa može imati stanje, dok ga čista funkcija ne može imati.
 
-## Komponenta kao klasa (*Stateful Component*)
+## Komponenta kao klasa
 
 Komponenta kao klasa se takođe naziva komponenta sa stanjem (*stateful component*).
 
@@ -30,13 +28,15 @@ export default class Developer extends Component {
 }
 ```
 
-## Komponenta kao čista funkcija (*Stateless Functional Components*)
+## Komponenta kao funkcija
 
-Komponenta kao funkcija, takođe komponenta sa bez stanja (*stateless component*), se koristi za jednostavne prezentacione komponente koje ne sadrže poslovnu logiku.
+Komponenta kao čista funkcija, ili komponenta sa bez stanja (*stateless component*), se koristi za jednostavne prezentacione komponente koje ne sadrže poslovnu logiku.
+
+Komponenta kao funkcija prima `props` objekat kao ulaz, a vraća pripremljen `jsx` (nalik HTML-u) kao rezultat.
 
 ### Verzija 1 (sa `return` naredbom)
 
-Na primer gornja klasa, pošto ne sadrži stanje, može biti refaktorisana u čistu funkciju, koja ima `props` kao ulaz, a vraća pripremljen `jsx` (nalik HTML-u) kao rezultat. Komponenta kao funkcija je zapravo samo render metoda gornje klase:
+Na primer gornja klasa, pošto ne sadrži stanje, može biti refaktorisana u čistu funkciju. Komponenta kao funkcija je zapravo samo render metoda gornje klase:
 
 ```jsx
 import React from 'react'
@@ -54,17 +54,13 @@ const Developer = props => {
 export default Developer
 ```
 
-Primetite da unutar funkcije ne koristimo `this`, već prosleđene atribute hvatamo direktno iz `props` objekta.
-
-Takođe, nije nam potrebno da uvozimo `Component` iz React-a, jer nemamo klasu koja je nasleđuje. Sam uvoz `React` biblioteke je i dalje neophodan.
+Primetite da unutar funkcije ne koristimo `this`, već prosleđene atribute hvatamo direktno iz `props` objekta. Takođe, nije nam potrebno da uvozimo `Component` iz React-a, jer nemamo klasu koja je nasleđuje. Sam uvoz `React` biblioteke je i dalje neophodan. Na kraju, primetite da smo podrazumevani izvoz (`export default`) morali da premestimo na dno fajla, jer ga nije moguće ostaviti na početku, kao kod klase.
 
 Ukoliko je potrebno da unutar funkcije obavimo neka računanja, to činimo pre `return` naredbe.
 
-Na kraju, primetite da smo podrazumevani izvoz (`export default`) morali da premestimo na dno fajla, jer ga nije moguće ostaviti na početku, kao kod klase.
-
 ### Verzija 2 (implicitni `return`)
 
-Ako funkcija u prvoj liniji odmah vraća vrednost, onda ključna reč `return` nije neophodna. Funkcija implicitno vraća sve nakon strelice:
+Ako funkcija u prvoj liniji odmah vraća vrednost, onda ključna reč `return` nije neophodna. Funkcija implicitno vraća ono nakon strelice:
 
 ```jsx
 const Developer = props => (
@@ -76,7 +72,7 @@ const Developer = props => (
 )
 ```
 
-### Verzija 3 (najkraća)
+### Verzija 3 (bez zagrada)
 
 Moguće je čak izbaciti zagrade, čime dobijamo najkraći mogući zapis komponente:
 
@@ -89,9 +85,9 @@ const Developer = props =>
   </div>
 ```
 
-Zagrade se uglavnom ostavljaju radi preglednosti.
+Inače, zagrade se uglavnom ostavljaju radi preglednosti.
 
-### Verzija 4 (razlaganje `props` objekta)
+### Verzija 4 (sa razlaganjem `props` objekta)
 
 U React zajednici ćete se susresti sa razlaganjem (destruktuiranjem) `props` objekta prilikom prosleđivanja funkciji. Nakon razlaganja, vrednosti koristimo kao varijable, a ne kao atribute `props` objekta:
 
@@ -104,7 +100,7 @@ const Developer = ({name, image, skills}) =>
   </div>
 ```
 
-Sintaksa razlaganja objekta je sledeća:
+Sintaksa [razlaganja objekta](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#Object_destructuring) je sledeća:
 
 ```js
 const {name, image, skills} = props
