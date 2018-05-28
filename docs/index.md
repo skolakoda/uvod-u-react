@@ -1,6 +1,6 @@
 <a href="https://skolakoda.org/kursevi/" class="btn">< Nazad na kurseve</a>
 
-![React](logo.jpeg)
+![React](images/logo.jpeg)
 
 # Uvod u React
 

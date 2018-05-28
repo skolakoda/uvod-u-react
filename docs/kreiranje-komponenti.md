@@ -34,7 +34,7 @@ Komponenta kao čista funkcija, ili komponenta sa bez stanja (*stateless compone
 
 Komponenta kao funkcija prima `props` objekat kao ulaz, a vraća pripremljen `jsx` (nalik HTML-u) kao rezultat.
 
-### Verzija 1 (sa `return` naredbom)
+### Verzija 1: funkcionalna komponenta sa `return` naredbom
 
 Na primer gornja klasa, pošto ne sadrži stanje, može biti refaktorisana u čistu funkciju. Komponenta kao funkcija je zapravo samo render metoda gornje klase:
 
@@ -58,7 +58,7 @@ Primetite da unutar funkcije ne koristimo `this`, već prosleđene atribute hvat
 
 Ukoliko je potrebno da unutar funkcije obavimo neka računanja, to činimo pre `return` naredbe.
 
-### Verzija 2 (implicitni `return`)
+### Verzija 2: funkcionalna komponenta bez `return` naredbe
 
 Ako funkcija u prvoj liniji odmah vraća vrednost, onda ključna reč `return` nije neophodna. Funkcija implicitno vraća ono nakon strelice:
 
@@ -72,7 +72,7 @@ const Developer = props => (
 )
 ```
 
-### Verzija 3 (bez zagrada)
+### Verzija 3: funkcionalna komponenta bez zagrada (nakraće)
 
 Moguće je čak izbaciti zagrade, čime dobijamo najkraći mogući zapis komponente:
 
@@ -87,9 +87,9 @@ const Developer = props =>
 
 Inače, zagrade se uglavnom ostavljaju radi preglednosti.
 
-### Verzija 4 (sa razlaganjem `props` objekta)
+### Verzija 4: funkcionalna komponenta sa razlaganjem `props` parametra
 
-U React zajednici ćete se susresti sa razlaganjem (destruktuiranjem) `props` objekta prilikom prosleđivanja funkciji. Nakon razlaganja, vrednosti koristimo kao varijable, a ne kao atribute `props` objekta:
+U React zajednici ćete se susresti sa razlaganjem (destruktuiranjem) `props` objekta koji je prosleđen funkciji. Nakon razlaganja, vrednosti koristimo kao varijable, a ne kao atribute `props` objekta:
 
 ```jsx
 const Developer = ({name, image, skills}) =>
