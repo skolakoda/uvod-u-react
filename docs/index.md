@@ -1,4 +1,4 @@
-<a href="https://skolakoda.org/kursevi/" class="btn">< Nazad na kurseve</a>
+<a href="https://skolakoda.org/kursevi/">< Nazad na kurseve</a>
 
 ![React](images/logo.jpeg)
 
