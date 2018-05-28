@@ -1,6 +1,4 @@
-![React](images/logo.jpeg)
-
-# Informacije o React kursu
+# O React kursu
 
 Predavači: Nikolić Dragan i Pavlica Damjan
 
