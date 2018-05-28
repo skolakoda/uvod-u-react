@@ -47,12 +47,13 @@ Da bi ste uspešno pohađali kurs bilo bi poželjno da imate čvrstu osnovu Java
 - JSX && JavaScript
 
 ### REACT KOMPONENTE
+
 - Šta je React komponenta?
-- Različiti pristupi u kreiranju komponenti (ES5 createClass, ES6 class, ES6 stateless function)
+- [Različiti načini kreiranja komponenti](kreiranje-komponenti)
 - Povezivanje komponenti
 - Child-Parent odnos komponenti
-- Pojmovi prezentacionih i kontejner komponenti
-- "Nested" komponente i pojmovi STATE, REFS & PROPS
+- Prezentacione i kontejner komponente
+- Ugnježdene komponente i pojmovi STATE, REFS & PROPS
 - Rad sa događajima "Event Handling"
 - Životni ciklus komponente (nije bajka :D)
 - Komponente višeg reda
