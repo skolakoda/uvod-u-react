@@ -4,7 +4,7 @@
 
 # Uvod u React
 
-Predavači: Nikolić Dragan i Damjan Pavlica
+Predavači: Nikolić Dragan i Pavlica Damjan
 
 Organizacija: [Škola koda](https://skolakoda.org/)
 
@@ -86,4 +86,6 @@ Da bi ste uspešno pohađali kurs bilo bi poželjno da imate čvrstu osnovu Java
 
 ## NEFORMALNO:
 
-> Iz svog dosadašnjeg iskustva sa Reactom mogu da kažem da je React moćan alat! U početku su mi neki njegovi koncepti delovali nesmisleno i nerazumljivo (biće i vama), učio sam ga samo zato što je "aktuelan" i popularan ali sam u jednom trenutku uhvatio sebe da sam počeo da razmišljam na React način (baš kako stoji u njihovoj dokumentaciji), počeo sam da planiram aplikacije na React način, da prebacujem postojeće aplikacije u React i ubrzo je sve "leglo" na svoje mesto a rezultati nisu izostali. Ja vas ovim kursom mogu uvesti u React, pružiti osnove i polaznu tačku u vašem daljem razvoju kao budućih developera. Naučićete da razmišljate kao developeri a da li ćete  uspešno savladati React i koliko ćete biti kvalitetan developer zavisi samo od vašeg ličnog zalaganja i daljeg rada. (Dragan Nikolić Kića)
+> Iz svog dosadašnjeg iskustva sa Reactom mogu da kažem da je React moćan alat! U početku su mi neki njegovi koncepti delovali nesmisleno i nerazumljivo (biće i vama), učio sam ga samo zato što je "aktuelan" i popularan ali sam u jednom trenutku uhvatio sebe da sam počeo da razmišljam na React način (baš kako stoji u njihovoj dokumentaciji), počeo sam da planiram aplikacije na React način, da prebacujem postojeće aplikacije u React i ubrzo je sve "leglo" na svoje mesto a rezultati nisu izostali. Ja vas ovim kursom mogu uvesti u React, pružiti osnove i polaznu tačku u vašem daljem razvoju kao budućih developera. Naučićete da razmišljate kao developeri a da li ćete  uspešno savladati React i koliko ćete biti kvalitetan developer zavisi samo od vašeg ličnog zalaganja i daljeg rada.
+
+Dragan Nikolić Kića
