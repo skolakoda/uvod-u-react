@@ -4,7 +4,7 @@
 
 # Uvod u React
 
-Učimo razvoj jednostraničnih aplikacija kroz React. Za više informacija o kursu vidi [ovde](o-kursu).
+**Učimo razvoj jednostraničnih aplikacija kroz React. Za više informacija o kursu vidi [ovde](o-kursu).**
 
 ## Upoznavanje alata
 
