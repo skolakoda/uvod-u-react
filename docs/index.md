@@ -62,4 +62,7 @@
 ## Pravimo React aplikaciju
 
 - Izrada aplikacije po dogovoru sa grupom
-- Šta dalje?
+
+## Šta dalje?
+- [Učimo Redux](https://skolakoda.org/kursevi/ucimo-redux)
+- [Učimo React Native](https://skolakoda.org/ucimo-react-native/)
