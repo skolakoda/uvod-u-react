@@ -1,29 +1,53 @@
-# O React kursu
+# Pitanja i odgovori o React kursu
 
-Predavači: Nikolić Dragan i Pavlica Damjan
+**Ovde su dati odgovori na neka od često postavljanih pitanja o React/Redux kursu.**
 
-Organizacija: [Škola koda](https://skolakoda.org/)
+## Za koga je kurs?
 
-TRAJANJE KURSA : | dva meseca
-TEMPO: | dva dvočasa nedeljno
-E-MAIL : | info@skolakoda.org
-TELEFON : | 065/9777-253
-WEB: | [Škola koda](https://skolakoda.org/)
+React/Redux kurs je namenjen onima koji se već bave programiranjem i žele da nadograde postojeće znanje. 
 
-## Opis kursa
+## Šta su preduslovi?
 
-Ovaj dvomesečni kurs je  kreiran u cilju edukacije i savladavanja osnova React-a, JavaScript biblioteke namenjene za lakšu, efikasniju i bržu izgradnju interaktivnih korisničkih interfejsa (UI). Kurs je pogodan za sve koji poznaju JavaScript programski jezik i žele da nadograde postojeće znanje. Na početku kursa polaznici se upoznaju sa React bilibliotekom, konceptima njenog rada, načinima instaliranja kao i možda najbitnijim pitanjem: odabira React-a za projekat (prednostima i manama). Cilj kursa je da po završetku polazici imaju dovoljno znanja da potpuno samostalno kreiraju i izrađuju svoje aplikacije. Kroz ceo kurs se  naglasak stavlja na praktičnu nastavu i podsticanju polaznika da samostalno iznalaze rešenja primenjujući postojeće i stečeno  znanje. Istovremeno predavač će izdvojti dovoljno vremena da se individualno posveti svakom polazniku.
+Da bi ste uspešno pratili kurs poželjno je da imate čvrstu osnovu JavaScript programskog jezika, posebno ES6 sintakse. Takođe je poželjno osnovno poznavanje HTML-a a CSS-a.
 
-## Organizacija kursa
+## Koliko traje kurs?
 
-Kurs je predvidjen za rad u malim grupama od 6-10 polaznika dva puta nedeljno. U slučaju većeg broja polaznika biće formirano više manjih grupa a sama satnica prilagođena. Ukoliko grupa nakon početnih predavanja pokazuje napredno znanje, kurs će u dogovoru sa polaznicima biti prilagođen samoj grupi i sadržaj predavanja se može promeniti ka naprednim sadržajima.
+React kurs može trajati između jednog i tri meseca, zavisno od organizacije.
 
-## Preduslovi
+Skraćeni React kurs traje mesec dana. Pun React, Redux i React Native kurs traje tri meseca.
 
-Da bi ste uspešno pohađali kurs bilo bi poželjno da imate čvrstu osnovu JavaScript programskog jezika, posebno novih konvencija tog jezika odnosno ES6 sintakse i principa. Takođe je poželjno osnovno poznavanje HTML-a a CSS-a.
+## Čemu služe React, Redux i React Native?
 
-## Neformalno
+- React služi za izgradnju interaktivnih korisničkih interfejsa (UI), odnosno za razvoj frontend web aplikacija. 
+- Redux služi za čuvanje stanja aplikacije. To je softversko arhitektonsko rešenje koje je zamenilo MVC obrazac.
+- React Native služi za razvoj mobilnih, android i iOS aplikacija, pomoću web tehnologija.
 
-> Iz svog dosadašnjeg iskustva sa Reactom mogu da kažem da je React moćan alat! U početku su mi neki njegovi koncepti delovali nesmisleno i nerazumljivo (biće i vama), učio sam ga samo zato što je "aktuelan" i popularan ali sam u jednom trenutku uhvatio sebe da sam počeo da razmišljam na React način (baš kako stoji u njihovoj dokumentaciji), počeo sam da planiram aplikacije na React način, da prebacujem postojeće aplikacije u React i ubrzo je sve "leglo" na svoje mesto a rezultati nisu izostali. Ja vas ovim kursom mogu uvesti u React, pružiti osnove i polaznu tačku u vašem daljem razvoju kao budućih developera. Naučićete da razmišljate kao developeri a da li ćete  uspešno savladati React i koliko ćete biti kvalitetan developer zavisi samo od vašeg ličnog zalaganja i daljeg rada.
+## Ko su predavači?
+
+Predavači su profesionalni Javascript developeri i radioničari Škole koda Nikolić Dragan i Pavlica Damjan.
+
+## Kako se radi?
+
+Radi se u malim grupama od 6-10 polaznika dva puta nedeljno. Ukoliko grupa pokazuje napredno znanje, kurs će u dogovoru sa polaznicima biti prilagođen samoj grupi i sadržaj predavanja se može promeniti ka naprednim sadržajima.
+
+Kroz ceo kurs se naglasak stavlja na praktičnu nastavu i podsticanju polaznika da samostalno iznalaze rešenja primenjujući postojeće i stečeno znanje. Istovremeno, predavač će izdvojiti dovoljno vremena da se individualno posveti svakom polazniku.
+
+## Šta ću naučiti?
+
+Cilj kursa je da po završetku polaznici steknu dovoljno znanja da potpuno samostalno projektuju i razvijaju svoje aplikacije. 
+
+## Da li dobijam sertifikat?
+
+Sertifikat mogu dobiti oni polaznici koji budu ispunili sve obaveze i prošli završni ispit.
+
+## Kako se mogu prijaviti?
+
+Ukoliko je [upis u toku](https://skolakoda.org/upis-u-toku) možeš se prijaviti odmah, ukoliko nije, možeš se prijaviti na čekanje.
+
+Slobodno nas [kontaktiraj](https://skolakoda.org/kontakt) ako imaš bilo kakvih pitanja!
+
+## Umesto zaključka
+
+> Iz svog dosadašnjeg iskustva sa Reactom mogu da kažem da je React moćan alat! U početku su mi neki njegovi koncepti delovali nesmisleno i nerazumljivo (biće i vama), učio sam ga samo zato što je "aktuelan" i popularan ali sam u jednom trenutku uhvatio sebe da sam počeo da razmišljam na React način (baš kako stoji u njihovoj dokumentaciji), počeo sam da planiram aplikacije na React način, da prebacujem postojeće aplikacije u React i ubrzo je sve "leglo" na svoje mesto a rezultati nisu izostali.
 
 Dragan Nikolić Kića

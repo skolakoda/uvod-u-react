@@ -4,7 +4,9 @@
 
 # Uvod u React
 
-**Učimo razvoj jednostraničnih aplikacija kroz React. Za više informacija o kursu vidi [ovde](o-kursu).**
+**Učimo razvoj aplikacija kroz React. Kurs se sastoji iz tri modula: React, Redux i React Native.**
+
+***Kurs je pogodan za sve koji poznaju JavaScript programski jezik i žele da nadograde postojeće znanje. [Saznaj više](o-kursu)***
 
 ## Upoznavanje alata
 
