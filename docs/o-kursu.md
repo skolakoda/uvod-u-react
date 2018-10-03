@@ -2,6 +2,8 @@
 
 **Ovde su dati odgovori na neka od često postavljanih pitanja o React/Redux kursu.**
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CrDXve3kCmk?rel=0&cc_load_policy=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 ## Za koga je kurs?
 
 React/Redux kurs je namenjen onima koji se već bave programiranjem i žele da nadograde postojeće znanje. 
