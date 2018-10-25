@@ -64,6 +64,7 @@
 ## Pravimo React aplikaciju
 
 - Izrada aplikacije po dogovoru sa grupom
+- Objavljivanje aplikacije
 
 ## Šta dalje?
 - [Učimo Redux](https://skolakoda.org/kursevi/ucimo-redux)
