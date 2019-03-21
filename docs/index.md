@@ -8,6 +8,8 @@
 
 ***Kurs je pogodan za sve koji poznaju JavaScript programski jezik i žele da nadograde postojeće znanje. [Saznaj više](o-kursu)***
 
+<a href="/prijava?kurs=11">Prijava za obuku</a>
+
 ## Upoznavanje alata
 
 - Šta je React?
