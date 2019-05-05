@@ -12,12 +12,12 @@
 
 ## Upoznavanje alata
 
-- Šta je React?
-- Šta je Virtual-Dom?
+- [Šta je React?](sta-je-react)
+- [Šta je Virtual-Dom?](virtuelni-dom)
 - Komparacija VIRTUAL-DOM vs DOM
 - Upoznavanje sa osnovnim alatima (text editor, Webpack, Node, Npm, Babel, React Dev-Tools, pomoćne blbioteke)
+- [Kreiranje prve React aplikacije](kreiranje-react-aplikacije)
 - Načini organizacije koda React aplikacija
-- Kreiranje prve React aplikacije
 
 ## JSX
 
