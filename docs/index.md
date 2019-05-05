@@ -29,7 +29,7 @@
 
 ## React komponente
 
-- Šta je React komponenta?
+- [Šta je React komponenta?](komponente)
 - [Različiti načini kreiranja komponenti](kreiranje-komponenti)
 - Povezivanje komponenti
 - Child-Parent odnos komponenti
@@ -47,7 +47,7 @@
 - Stilizovanje
 - Podizanje stanja (STATE UP)
 - Najbolja praksa i preporuke
-- NAPOMENA:U ovom poglavlju (kao i kroz naredna) govorićemo i o Redux-u kao neizostavnom za state-managment i asinhrone radnje
+- NAPOMENA: U ovom poglavlju (kao i kroz naredna) govorićemo i o Redux-u kao neizostavnom za state-managment i asinhrone radnje
 
 ## React i Ajax pozivi
 
