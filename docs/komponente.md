@@ -8,7 +8,7 @@ React komponente se mogu konceptualno smatrati JavaScript funkcijama. One korist
 
 Funkcija može da služi kao React komponenta. Ulazni podaci komponente su smešteni u `props` objekat. Na primer: 
 
-```js
+```jsx
 function Pozdrav(props) {
   return <hl>Zdravo, {props.ime}</hl>
 }
@@ -18,7 +18,7 @@ Ova funkcija prima ulaz pod nazivom `props` i vraća `JSX` (nestandarnu sintaksu
 
 U roditeljskoj komponenti možemo upotrebiti komponentu `Pozdrav` na sledeći način:
 
-```js
+```jsx
 render(){
   return (
     return <Pozdrav ime="Nikola"/>
@@ -32,7 +32,7 @@ Potrebno je da naziv komponente počinje velikim slovom. React tretira tagove ko
 
 Takođe, možemo kreirati komponentu pomoću klase. Ona mora biti potklasa klase `React.Com­ponent`. Ekvivalent prethodne funkcije `Pozdrav` je sledeći:
 
-```js
+```jsx
 class Pozdrav extends React.Component {
   render(){
     return <hl>Zdravo, {this.props.ime}</hl>
