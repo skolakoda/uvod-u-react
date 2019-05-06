@@ -1,45 +1,37 @@
 # Šta je React komponenta?
 
-**Komponenta je bilo koji element web stranice (poput dugmeta), koji sadrži sopstveni prikaz, stil i funkcionalnost.**
+**Komponenta je element web stranice (poput dugmeta ili zaglavlja), koji sadrži sopstveni prikaz i funkcionalnost.**
 
-React komponente se mogu konceptualno smatrati JavaScript funkcijama. One koriste proizvo­ljan broj ulaza, kao i funkcije.
+React komponente se mogu praviti pomoću funkcije ili pomoću klase.
 
 ## Komponenta kao funkcija
 
-Funkcija može da služi kao React komponenta. Ulazni podaci komponente su smešteni u `props` objekat. Na primer: 
+Obična funkcija postaje React komponenta ukoliko vraća JSX (format nalik HTML-u). Na primer: 
 
 ```jsx
-function Pozdrav(props) {
-  return <hl>Zdravo, {props.ime}</hl>
+function Pozdrav() {
+  return <hl>Zdravo Svete</hl>
 }
 ```
 
-Ova funkcija prima ulaz pod nazivom `props` i vraća `JSX` (nestandarnu sintaksu koju koristi React). Važno je napomenuti da komponenta ne može da modifikuje svoj ulazni objekat `props`. Unutar JSX-a možemo koristiti varijable pomoću vitičastih zagrada. 
+Unutar Reacta, komponentu `Pozdrav` možemo koristiti kao tag, na sledeći način:
 
-U roditeljskoj komponenti možemo upotrebiti komponentu `Pozdrav` na sledeći način:
-
-```jsx
-render(){
-  return (
-    return <Pozdrav ime="Nikola"/>
-  )
-}
+```html
+<div>
+  <Pozdrav/>
+<div>
 ```
 
-Potrebno je da naziv komponente počinje velikim slovom. React tretira tagove koji počinju malim slovom kao standardne HTML tagove, a očekuje da prilagođene komponente počinju velikim slovom. 
+> Potrebno je da naziv komponente počinje velikim slovom. React tretira tagove koji počinju malim slovom kao standardne HTML tagove, a očekuje da prilagođene komponente počinju velikim slovom. 
 
 ## Komponenta kao klasa
 
-Takođe, možemo kreirati komponentu pomoću klase. Ona mora biti potklasa klase `React.Com­ponent`. Ekvivalent prethodne funkcije `Pozdrav` je sledeći:
+Komponentu možemo kreirati i pomoću klase. Ona mora nasleđivati `React.Com­ponent` i imati `render` metodu koja vraća JSX. Na primer:
 
 ```jsx
 class Pozdrav extends React.Component {
   render(){
-    return <hl>Zdravo, {this.props.ime}</hl>
+    return <hl>Zdravo Svete</hl>
   }
 }
 ```
-
-## Literatura
-
-- Ved Antani, Stojan Stefanov, *Objektno-orjentisan JavaScript*, Beograd, 2017.

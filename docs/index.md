@@ -35,7 +35,8 @@
 - Child-Parent odnos komponenti
 - Prezentacione i kontejner komponente
 - Ugnježdene komponente i pojmovi STATE, REFS & PROPS
-- [Stanje komponente](stanje)
+  - [Props](props)
+  - [Stanje](stanje) (*state*)
 - Rad sa događajima "Event Handling"
 - Životni ciklus komponente (nije bajka :D)
 - Komponente višeg reda
