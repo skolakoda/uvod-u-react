@@ -31,14 +31,13 @@
 
 - [Šta je React komponenta?](komponente)
 - [Različiti načini kreiranja komponenti](kreiranje-komponenti)
-- Povezivanje komponenti
-- Child-Parent odnos komponenti
+- Povezivanje komponenti u stablo
+- Ugnježdene komponente i odnos roditelj-dete
+  - [Props](props) (ulazni podaci)
+  - [Stanje](stanje) (lokalni podaci)
+- Upravljanje događajima (*event handling*)
+- [Životni ciklus komponente](zivotni-ciklus) (nije bajka :D)
 - Prezentacione i kontejner komponente
-- Ugnježdene komponente i pojmovi STATE, REFS & PROPS
-  - [Props](props)
-  - [Stanje](stanje) (*state*)
-- Rad sa događajima "Event Handling"
-- Životni ciklus komponente (nije bajka :D)
 - Komponente višeg reda
 
 ## Rad u Reactu
@@ -47,9 +46,9 @@
 - Rad sa listama
 - Import različitih tipova podataka
 - Stilizovanje
-- Podizanje stanja (STATE UP)
+- Podizanje stanja (*state up*)
 - Najbolja praksa i preporuke
-- NAPOMENA: U ovom poglavlju (kao i kroz naredna) govorićemo i o Redux-u kao neizostavnom za state-managment i asinhrone radnje
+- Upoznavanje sa *Redux-om*, alatom za upravljanje stanjem aplikacije
 
 ## React i Ajax pozivi
 
