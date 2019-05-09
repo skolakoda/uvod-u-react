@@ -30,8 +30,8 @@
 ## React komponente
 
 - [Šta je React komponenta?](komponente)
+- [Render metod](render)
 - [Različiti načini kreiranja komponenti](kreiranje-komponenti)
-- Povezivanje komponenti u stablo
 - Ugnježdene komponente i odnos roditelj-dete
   - [Props](props) (ulazni podaci)
   - [Stanje](stanje) (lokalni podaci)
