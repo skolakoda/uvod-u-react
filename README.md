@@ -6,7 +6,7 @@ Vidi: [skolakoda.org/uvod-u-react](https://skolakoda.org/uvod-u-react/)
 
 ## Razvoj
 
-Lekcije se mogu dodavati direktno na Githubu, online. Takođe, projekat se može pokrenuti na lokalu.
+Lekcije se mogu dodavati direktno na Githubu. Takođe, projekat se može pokrenuti na lokalu.
 
 ### Preduslovi
 
