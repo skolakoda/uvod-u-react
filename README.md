@@ -2,7 +2,7 @@
 
 Kurs Škole koda namenjen svima koji žele da steknu osnovna znanja o React biblioteci.
 
-Više o kursu vidi na [skolakoda.org/uvod-u-react](https://skolakoda.org/uvod-u-react/)
+Vidi: [skolakoda.org/uvod-u-react](https://skolakoda.org/uvod-u-react/)
 
 ## Instalacija
 
