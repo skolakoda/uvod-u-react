@@ -19,7 +19,7 @@ gem install jekyll
 
 ### Pokretanje
 
-Pokretanje projekta na lokalu (iz docs foldera):
+Pokretanje projekta na lokalu (iz `docs` foldera):
 
 ```
 cd docs
